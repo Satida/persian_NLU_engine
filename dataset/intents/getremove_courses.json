@@ -1,0 +1,58 @@
+{
+  "name": "getremove_courses",
+  "utterances": {
+    "en": [
+      "درخواست حذف درس [بینایی ماشین](remove_course_name)  و اخذ درس [اخلاق اسلامی](get_course_name) را دارم .",
+      "می‌خواستم درس [اخلاق اسلامی](remove_course_name) را حذف و [بینایی ماشین](get_course_name) را اخذ کنم .",
+      "می‌خواهم درس [اخلاق اسلامی](remove_course_name) با کد [۹۵۱۲۵۸۵۶](get_cource_id) را بگیرم و درس [هوش مصنوعی](remove_course_name) را حذف کنم .",
+      "آیا می‌توانم درس [اخلاق اسلامی](remove_course_name) را حذف کنم و درس [هوش مصنوعی](get_course_name) را اخذ کنم ؟",
+      "می‌شود درس [اخلاق اسلامی](remove_course_name) و [اندیشه اسلامی](remove_course_name) را حذف کنم و [هوش مصنوعی](get_course_name) بگیرم .",
+      "اگر ممکن است می‌خواهم درس [بینایی ماشین](get_course_name) را بگیرم و درس [هوش مصنوعی](get_course_name) را حذف کنم ."
+    ]
+  },
+  "slots": [
+    {
+      "id": "gkv0BbM1njQKhwmsudG5G",
+      "name": "get_course_name",
+      "entities": [
+        "Courses_Name"
+      ],
+      "color": 1
+    },
+    {
+      "id": "svJnvLurt9FBud3Cf7Io6",
+      "name": "remove_course_name",
+      "entities": [
+        "Courses_Name"
+      ],
+      "color": 2
+    },
+    {
+      "id": "gPmHnc46kGsnUx1_FkZE9",
+      "name": "get_cource_id",
+      "entities": [
+        "Courses_ID"
+      ],
+      "color": 3
+    },
+    {
+      "id": "Ct-H8xbTWHvp9bl3V-P_6",
+      "name": "remove_cource_id",
+      "entities": [
+        "Courses_ID"
+      ],
+      "color": 4
+    },
+    {
+      "id": "Fc2llS6z6OgI46w6CWg3W",
+      "name": "day_name",
+      "entities": [
+        "days_name"
+      ],
+      "color": 5
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "get_courese",
+  "utterances": {
+    "en": [
+      "درخواست اخذ و گرفتن درس",
+      "می‌خواهم درس [بینایی ماشین](get_course_name) را اخذ کنم .",
+      "می‌خواستم درس [هوش مصنوعی](get_course_name) اخذ کنم .",
+      "آیا با این سامانه می‌توان انتخاب واحد انجام داد ؟",
+      "درخواست اخذ درس دارم",
+      "درخواست گرفتن چند درس را دارم .",
+      "می‌خواهم با درخواست اخذ درس من موافقت کنید.",
+      "می‌خواهم درس [هوش محاسباتی](get_course_name) با کد [۹۵۱۲۵۸۵۶](get_course_id) را اخذ کنم .",
+      "هنوز فرصت برای اخذ درس دارم ؟",
+      "درس [ریاضی ۲](get_course_name) تکمیل ظرفیت شده است با این حال می‌خواستم این درس را اخذ کنم .",
+      "اگر ممکن هست درس [بینایی ماشین](get_course_name) روز [چهارشنبه](day_name) را اخذ کنم ."
+    ]
+  },
+  "slots": [
+    {
+      "id": "f9GvWkCRMknVJmgXkUkQD",
+      "name": "get_course_name",
+      "entities": [
+        "Courses_Name"
+      ],
+      "color": 1
+    },
+    {
+      "id": "_UZoav6r0RHLJ59V0YxKs",
+      "name": "get_course_id",
+      "entities": [
+        "Courses_ID"
+      ],
+      "color": 2
+    },
+    {
+      "id": "vp7zdB8bXDYmdHe5WRA8k",
+      "name": "day_name",
+      "entities": [
+        "days_name"
+      ],
+      "color": 3
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

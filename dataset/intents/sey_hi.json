@@ -1,0 +1,12 @@
+{
+  "name": "sey_hi",
+  "utterances": {
+    "en": [
+      "سلام"
+    ]
+  },
+  "slots": [],
+  "contexts": [
+    "global"
+  ]
+}

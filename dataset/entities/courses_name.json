@@ -1,0 +1,38 @@
+{
+  "id": "courses_name",
+  "name": "Courses_Name",
+  "type": "list",
+  "occurrences": [
+    {
+      "name": "بینایی ماشین",
+      "synonyms": []
+    },
+    {
+      "name": "هوش مصنوعی",
+      "synonyms": []
+    },
+    {
+      "name": "هوش محاسباتی",
+      "synonyms": []
+    },
+    {
+      "name": "ریاضی ۲",
+      "synonyms": []
+    },
+    {
+      "name": "اخلاق اسلامی",
+      "synonyms": []
+    },
+    {
+      "name": "اندیشه اسلامی",
+      "synonyms": []
+    },
+    {
+      "name": "آزمایشگاه ریزپردازنده",
+      "synonyms": []
+    }
+  ],
+  "fuzzy": 0.8,
+  "examples": [],
+  "pattern": ""
+}
